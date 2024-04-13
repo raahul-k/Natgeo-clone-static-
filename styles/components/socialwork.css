@@ -1,0 +1,105 @@
+.socialwork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5em;
+    background-color: var(--clr-offwhite);
+    color: var(--clr-black);
+    padding-bottom: 6em;
+}
+
+.socialwork-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 3em 0;
+}
+
+.socialwork-title{
+    font-size: var(--size-3xl);
+    font-weight: 700;
+    text-align: center;
+}
+
+.socialwork-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 1em;
+    transition: all 0.3s;
+}
+
+.socialwork-content:hover{
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.socialwork-description p{
+    font-size: var(--size-md);
+    font-weight: 500;
+}   
+
+.socialwork-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    .socialwork-content{
+        max-width: 80vw;
+        flex-wrap: nowrap;
+        padding: 0 4em;
+    }
+
+    .socialwork-content-img-container{
+        width: max-content;
+    }
+
+    .socialwork-description{
+        width: fit-content;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .socialwork{
+        padding-left: 3em;
+        padding-right: 3em;
+    }  
+
+    .socialwork-content{
+        padding: 0 3em;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .socialwork{
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .socialwork{
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+}

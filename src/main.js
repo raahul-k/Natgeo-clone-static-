@@ -1,0 +1,11 @@
+import "../styles/modern-normalise.css";
+import "../styles/style.css";
+import "../styles/components/header.css";
+import "../styles/components/hero.css";
+import "../styles/components/wildlife.css";
+import "../styles/components/natgeo-tv.css";
+import "../styles/components/travel.css";
+import "../styles/components/latestissues.css";
+import "../styles/components/socialwork.css";
+import "../styles/components/footer.css";
+import "../styles/utils.css";

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natgeo clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header container-fluid">
+      <img
+        class="header-logo"
+        src="./public/Assets/Logos and icons/ng-logo-reusbale.webp"
+        alt="National Geographic"
+      />
+      <ul class="header-links">
+        <li>
+          <div class="searchBoxContainer">
+            <div class="searchbar">
+              <input type="checkbox" id="check" />
+              <input
+                type="text"
+                placeholder="Search National Geographic"
+                class="input"
+              />
+              <label for="check" class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+            </div>
+          </div>
+        </li>
+        <li><a class="links-link mobile-nav-header" href="">LOGIN</a></li>
+        <li><a class="links-link" href="">NEWSLETTER</a></li>
+        <li><a class="links-link" href="">SUBSCRIBE</a></li>
+        <li><a class="links-link" href="">MENU</a></li>
+        <li>
+          <i
+            class="links-menu-mobileView mobile-nav-header fa-solid fa-angles-down"
+          ></i>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-title">
+          <h1>LATEST STORIES</h1>
+          <p>
+            <a href="#" class="btn">Subscribe</a> to read full stories from
+            National Geographic.
+          </p>
+          <div class="headingLine-horizontal"></div>
+        </div>
+        <div class="hero-stories">
+          <div class="hero-stories-title">
+            <img
+              src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+              alt="NG logo"
+            />
+            <h1>TODAY'S PICKS</h1>
+          </div>
+          <div class="hero-stories-wrapper">
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img1"></div>
+              <div class="hero-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>We're not so far away from the flying cars dream.</p>
+              </div>
+            </div>
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img2"></div>
+              <div class="hero-story-information">
+                <p>HISTORY AND CULTURE</p>
+                <p>
+                  These sites shed light on Alexander the Great's lost kingdom
+                </p>
+              </div>
+            </div>
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img3"></div>
+              <div class="hero-story-information">
+                <p>WILDLIFE</p>
+                <p>
+                  These animals have gone extinct in the last 100 years. And
+                  these will..
+                </p>
+              </div>
+            </div>
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img4"></div>
+              <div class="hero-story-information">
+                <p>ENVIRONMENT</p>
+                <p>This is how soil pollution leads to global warming</p>
+              </div>
+            </div>
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img5"></div>
+              <div class="hero-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>This is what the world could look like in 2070</p>
+              </div>
+            </div>
+            <div class="hero-story">
+              <div class="hero-story-imgWrapper img6"></div>
+              <div class="hero-story-information">
+                <p>WILDLIFE</p>
+                <p>What happens to birds when they inhale smoke</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-stories-seemoreBtn">
+            <a class="btn" href="#">SEE MORE</a>
+          </div>
+        </div>
+        <div class="hero-promoTile-main">
+          <div class="hero-promoTile-main-information">
+            <p>ENVIRONMENT</p>
+            <p>
+              Cobalt empowers us. What is it-and how it is beneficial for us?
+            </p>
+            <p class="hero-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="hero-promoTile-secondary tile1">
+          <img
+            class="hero-promoTile-secondary-img"
+            src="public/Assets/Images/hero/hero__subcard-1.webp"
+            alt="Northern lights"
+          />
+          <div class="hero-promoTile-secondary-information">
+            <p>WILDLIFE</p>
+            <p>
+              Ancient turtles used to live more than 300 years. Almost double of
+              how much the average turtle lives now.
+            </p>
+            <p class="hero-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+        <div class="hero-promoTile-secondary tile2">
+          <img
+            class="hero-promoTile-secondary-img"
+            src="public/Assets/Images/hero/hero__subcard-2.webp"
+            alt="Northern lights"
+          />
+          <div class="hero-promoTile-secondary-information">
+            <p>TRAVEL</p>
+            <p>
+              5 ways to see the beautiful Northern lights (Aurora borealis) in
+              Canada
+            </p>
+            <p class="hero-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="wildlife container-fluid section">
+        <div class="wildlife-promoVideo">
+          <div class="wildlife-promoVideo-container">
+            <video
+              src="/public/Assets/Videos/wildlife__video.mp4"
+              class="wildlife__video-container"
+              loop
+              autoplay
+              start="50"
+              end="120"
+            ></video>
+          </div>
+          <div class="overlay"></div>
+          <div class="wildlife-promoVideo-content">
+            <h3>INCREDIBLE ANIMAL JOURNEYS</h3>
+            <p>
+              We might think we are the world’s greatest explorers, but we’re
+              not. Millions of animals migrate across our planet daily using
+              routes passed down through generations.
+              <b>INCREDIBLE ANIMAL JOURNEYS</b> puts us in the action as they
+              soar, fly and swim from the Antarctic to the African savanna and
+              the Pacific Ocean to Alaska.
+            </p>
+            <a class="btn" href="#">STREAM NOW</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="natgeo-tv container section">
+        <div class="natgeo-tv-title">
+          <p>DISCOVER MORE ON DISNEY+</p>
+          <a class="btn" hre="#">SEE SHOWS</a>
+        </div>
+        <div class="natgeo-tv-cards-container">
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-1.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-2.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-3.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-4.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-5.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-6.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-7.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-8.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-9.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-10.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-2.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-8.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-1.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-6.avif"
+              alt="img"
+            />
+          </div>
+          <div class="natgeo-tv-card-wrapper">
+            <img
+              src="/public/Assets/Images/natgeotv/natgeotv__description-5.avif"
+              alt="img"
+            />
+          </div>
+        </div>
+        <div class="natgeo-tv-bottom-heading">
+          <h2>NAT GEO TV</h2>
+          <div class="headingLine-horizontal"></div>
+        </div>
+        <div class="natgeo-tv-card-revolver">
+          <div class="natgeo-revolver-leftBtn">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="revolver-card-container">
+            <div class="card-wrapper card1">
+              <img
+                src="/public/Assets/Images/natgeotv/natgeotv__revolver__image-1.avif"
+                alt=""
+              />
+              <div class="card-watchnow-btn">
+                <div class="watchnowBtn">WATCH NOW</div>
+              </div>
+            </div>
+            <div class="card-wrapper card2">
+              <img
+                src="/public/Assets/Images/natgeotv/natgeotv__revolver__image-2.avif"
+                alt=""
+              />
+            </div>
+            <div class="card-wrapper card3">
+              <img
+                src="/public/Assets/Images/natgeotv/natgeotv__revolver__image-3.avif"
+                alt=""
+              />
+            </div>
+            <div class="card-wrapper card4">
+              <img
+                src="/public/Assets/Images/natgeotv/natgeotv__revolver__image-4.avif"
+                alt=""
+              />
+            </div>
+            <div class="card-wrapper card5">
+              <img
+                src="/public/Assets/Images/natgeotv/natgeotv__revolver__image-5.avif"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="natgeo-revolver-rightBtn">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="travel container">
+        <div class="travel-title">
+          <h1>TRAVEL</h1>
+          <div class="headingLine-horizontal"></div>
+        </div>
+        <div class="travel-stories">
+          <div class="travel-stories-title">
+            <img
+              src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+              alt="NG logo"
+            />
+            <h1>TODAY'S PICKS</h1>
+          </div>
+          <div class="travel-stories-wrapper">
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img1"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>
+                  5 ways to see the beautiful Northern lights (Aurora borealis)
+                  in Canada
+                </p>
+              </div>
+            </div>
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img2"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>These squirells are found only at these places</p>
+              </div>
+            </div>
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img3"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>The era of great architecture</p>
+              </div>
+            </div>
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img4"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>Discover the wonders of the ocean</p>
+              </div>
+            </div>
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img5"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>See Eruope from a new perspective</p>
+              </div>
+            </div>
+            <div class="travel-story">
+              <div class="travel-story-imgWrapper img6"></div>
+              <div class="travel-story-information">
+                <p>TRAVEL</p>
+                <p>
+                  Can you find someone to carve you rocks like the ones in this
+                  cave?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="travel-stories-seemoreBtn">
+            <a class="btn" href="#">SEE MORE</a>
+          </div>
+        </div>
+        <div class="travel-promoTile-main">
+          <div class="travel-promoTile-main-information">
+            <p>TRAVEL</p>
+            <p>Experience legendary places</p>
+            <p class="travel-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="travel-promoTile-secondary tile1">
+          <img
+            class="travel-promoTile-secondary-img"
+            src="public/Assets/Images/travel/travel__subcard-1.avif"
+            alt="Northern lights"
+          />
+          <div class="travel-promoTile-secondary-information">
+            <p>TRAVEL</p>
+            <p>Discover the wonders of the ocean</p>
+            <p class="travel-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+        <div class="travel-promoTile-secondary tile2">
+          <img
+            class="travel-promoTile-secondary-img"
+            src="public/Assets/Images/travel/travel__subcard-2.avif"
+            alt="Northern lights"
+          />
+          <div class="travel-promoTile-secondary-information">
+            <p>TRAVEL</p>
+            <p>See Europe from a new perspective</p>
+            <p class="travel-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="latestissues container section">
+        <div class="latestissues-title">
+          <h1>FEBRUARY 2024 ISSUES</h1>
+          <p>
+            <a href="#" class="btn">Subscribe</a> to see the full stories from
+            <i>The National Geographic</i> Magazine
+          </p>
+          <div class="headingLine-horizontal"></div>
+        </div>
+        <div class="latestissues-stories">
+          <div class="latestissues-stories-title">
+            <img
+              src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+              alt="NG logo"
+            />
+            <h1>TODAY'S PICKS</h1>
+          </div>
+          <div class="latestissues-stories-wrapper">
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img1"></div>
+              <div class="latestissues-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>The man behind the industrial revolution</p>
+              </div>
+            </div>
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img2"></div>
+              <div class="latestissues-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>
+                  Coronavirus has tested us. Will we be ready for the next
+                  pandemic?
+                </p>
+              </div>
+            </div>
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img3"></div>
+              <div class="latestissues-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>What does the Earth look like from space at night?</p>
+              </div>
+            </div>
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img4"></div>
+              <div class="latestissues-story-information">
+                <p>ENVIRONMENT</p>
+                <p>What lurks beneath the surface of these forest pools</p>
+              </div>
+            </div>
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img5"></div>
+              <div class="latestissues-story-information">
+                <p>WILDLIFE</p>
+                <p>
+                  Rabid racoons can kill you. Here's what you can do if you find
+                  one
+                </p>
+              </div>
+            </div>
+            <div class="latestissues-story">
+              <div class="latestissues-story-imgWrapper img6"></div>
+              <div class="latestissues-story-information">
+                <p>SCIENCE AND TECHNOLOGY</p>
+                <p>The man behind the industrial revolution</p>
+              </div>
+            </div>
+          </div>
+          <div class="latestissues-stories-seemoreBtn">
+            <a class="btn" href="#">SEE MORE</a>
+          </div>
+        </div>
+        <div class="latestissues-promoTile-main">
+          <div class="latestissues-promoTile-main-information">
+            <p>WILDLIFE</p>
+            <p>Follow the monarch on its 3000-mile journey across the world</p>
+            <p class="latestissues-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="latestissues-promoTile-secondary tile1">
+          <img
+            class="latestissues-promoTile-secondary-img"
+            src="public/Assets/Images/latest_issues/latestissues__subcard-1.avif"
+            alt="Northern lights"
+          />
+          <div class="latestissues-promoTile-secondary-information">
+            <p>WILDLIFE</p>
+            <p>Monarchs are the world's largest group of migrators</p>
+            <p class="latestissues-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+        <div class="latestissues-promoTile-secondary tile2">
+          <img
+            class="latestissues-promoTile-secondary-img"
+            src="public/Assets/Images/latest_issues/latestissues__stories-4.webp"
+            alt="Northern lights"
+          />
+          <div class="latestissues-promoTile-secondary-information">
+            <p>ENVIRONMENT</p>
+            <p>What lurks beneath the surface of these forest pools</p>
+            <p class="latestissues-promoTile-readBtn">
+              <img
+                src="/public/Assets/Logos and icons/mobile-view-ng-logo-reusable.png"
+                alt=""
+              />READ
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="socialwork container-fluid section">
+        <div class="socialwork-title-wrapper">
+          <div class="socialwork-title">
+            THE NATIONAL GEOGRAPHIC SOCIETY MISSION
+          </div>
+          <div class="headingLine-horizontal"></div>
+        </div>
+        <div class="socialwork-content">
+          <div class="socialwork-content-img-container">
+            <img
+              src="/public/Assets/Images/socialwork/socialwork__section1.avif"
+              alt=""
+            />
+          </div>
+          <div class="socialwork-description">
+            <h2>National Geographic's nonprofit work</h2>
+            <p>
+              The National Geographic Society invests in innovative leaders in
+              science, exploration, education and storytelling to illuminate and
+              protect the wonder of our world.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container-fluid">
+      <div class="footer-signup-section">
+        <img
+          class="footer-signup-img-container"
+          src="/public/Assets/Images/footer/footer__section1.webp"
+          alt=""
+        />
+        <div class="footer-signup-content">
+          <h2>THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h2>
+          <p>
+            Sign up for more inspiring photos, stories, and special offers from
+            National Geographic
+          </p>
+        </div>
+        <div class="footer-signup-btn-wrapper">
+          <a href="#" class="footer-signup-btn">SIGN UP</a>
+        </div>
+      </div>
+      <div class="footer-ext-links">
+        <div class="footer-ext-links-logo-container">
+          <img
+            src="/public/Assets/Logos and icons/ng-logo-white-reusable.webp"
+            alt="National Geographic"
+          />
+        </div>
+        <div class="footer-links-container">
+          <div class="footer-links-list-wrapper">
+            <h2>LEGAL</h2>
+            <ul class="footer-links">
+              <li class="footer-link">Terms of use</li>
+              <li class="footer-link">Privacy Policy</li>
+              <li class="footer-link">Your US state privacy rights</li>
+              <li class="footer-link">Children's online privacy policy</li>
+              <li class="footer-link">Interest-based ads</li>
+              <li class="footer-link">About Neilsen measurement</li>
+            </ul>
+          </div>
+          <div class="footer-links-list-wrapper">
+            <h2>OUR SITES</h2>
+            <ul class="footer-links">
+              <li class="footer-link">Nat Geo Home</li>
+              <li class="footer-link">Attend a live event</li>
+              <li class="footer-link">Book a trip</li>
+              <li class="footer-link">Buy Maps</li>
+              <li class="footer-link">Inspire your kids</li>
+              <li class="footer-link">Shop Nat Geo</li>
+              <li class="footer-link">Visit the D.C. Museum</li>
+              <li class="footer-link">Watch TV</li>
+              <li class="footer-link">Learn about our impact</li>
+              <li class="footer-link">Support our mission</li>
+              <li class="footer-link">Masthead</li>
+              <li class="footer-link">Press Room</li>
+              <li class="footer-link">Advertise with us</li>
+            </ul>
+          </div>
+          <div class="footer-links-list-wrapper">
+            <h2>JOIN US</h2>
+            <ul class="footer-links">
+              <li class="footer-link">Subscribe</li>
+              <li class="footer-link">Customer Service</li>
+              <li class="footer-link">Renew Subscription</li>
+              <li class="footer-link">Manage your subscription</li>
+              <li class="footer-link">Work at nat geo</li>
+              <li class="footer-link">Sign up for our newsletters</li>
+              <li class="footer-link">Contribute to protect the planet</li>
+            </ul>
+          </div>
+          <div class="footer-sociallinks-list-wrapper">
+            <h2>FOLLOW US</h2>
+            <ul class="footer-social-links">
+              <li class="footer-link">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+              <li class="footer-link"><i class="fa-brands fa-facebook"></i></li>
+              <li class="footer-link">
+                <i class="fa-brands fa-x-twitter"></i>
+              </li>
+              <li class="footer-link"><i class="fa-brands fa-youtube"></i></li>
+              <li class="footer-link">
+                <i class="fa-brands fa-reddit-alien"></i>
+              </li>
+              <li class="footer-link"><i class="fa-brands fa-tiktok"></i></li>
+              <li class="footer-link"><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyrightInfo">
+        <ul class="footer-copyrightInfo-list">
+          <li class="footer-copyrightInfo-img-container">
+            <img
+              src="/public/Assets/Logos and icons/ng-logo-white-reusable.webp"
+              alt="National Geographic"
+            />
+          </li>
+          <li>
+            Copyright <i class="fa-regular fa-copyright"></i> 1996-2015 National
+            Geographic Society
+          </li>
+          <li>
+            Copyright <i class="fa-regular fa-copyright"></i> 2015-2024 National
+            Geographic Partners, LLC. All rights reserved
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
